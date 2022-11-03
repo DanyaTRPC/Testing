@@ -1,0 +1,124 @@
+@import './AboutGoods';
+@import './AddGoods';
+@import './Enter';
+@import './GoodList';
+@import './MyAccount';
+@import './Registration';
+@import './GoodsItem';
+
+#app {
+    background-image: url(https://images.wallpaperscraft.ru/image/single/chernyj_temnyj_fraktal_149686_300x168.jpg) ;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: Gold ;
+    margin: -8px;
+  }
+  .logo{
+    margin-left: -1300px;
+    padding: -150px;
+    height: 35px;
+    width: 100px;
+  }
+  .pages {
+    border-radius: 4px;
+    background-color: Gold;
+    margin-left: 20px;
+    padding: 10px;
+    color: 	black;
+    text-decoration: none;
+  }
+  .pages:hover {
+    background-color: DarkOrange; 
+    color: white;
+  }
+  
+    .header, .content, .footer {
+    padding: 10px;
+  }
+  .header, .footer {
+    border:2px Gold  solid;
+    background: 	black;
+  }
+  .home {
+    position: absolute;
+    left: 0;
+    margin-left: 10%;
+  }
+  .myOffice {
+    position: absolute;
+    right: 0;
+    margin-right: 15%;
+  }
+  .myRegistration {
+    position: absolute;
+    right: 0; 
+    margin-right: 7%;
+  }
+  .mySignIn {
+    position: absolute;
+    right: 0; 
+    margin-right: 20px;
+  }
+  .header {
+    padding-bottom: 0%;
+    padding-top: 1%;
+  }
+  a {
+    text-decoration: none;
+    color: Gold; /* Цвет обычной ссылки */
+    padding: 2px; /* Поля вокруг текста */
+  }
+  a:hover {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #fff; /* Цвет ссылки при наведении на нее курсора мыши */  
+    background: Goldenrod; /* Цвет фона */
+  }
+  
+  .footer {
+    width: auto;
+    height: 150px;
+    padding-top: 2px;
+    margin-top: 250px;
+  } 
+  .followUs{
+    margin: 10px;
+    border:3px Gold  solid; 
+    width: 150px; 
+    position: absolute;
+    left: 0; 
+    margin-left: 550px;
+  }
+  .contacts{
+    border:3px Gold  solid; 
+    width: 250px; 
+    left: 0; 
+    margin-left: 810px;
+  }
+  .icon1{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: -730px;
+  }
+  .icon6{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -120px;
+  }
+  .icon7{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: -100px;
+  }
+  .icon8{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -65px;
+  }
+  .icon9{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: -65px;
+  }

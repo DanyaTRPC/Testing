@@ -1,0 +1,52 @@
+.blockgoods {
+    width: 250px;
+    border: 4px solid rgb(0, 0, 0);
+    margin: 3px;
+    border-radius:  20px;
+    border-color:gold ;
+    color: black;
+    background: white;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+}
+
+.cardPhoto {
+    margin-top: 20px;
+    margin-left: 5px;
+    height: 200px;
+}
+
+.cardInfo {
+    border: 2px solid black;
+    color: Gold;
+    border-color: gold;
+    background: black;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+
+.bt {
+  border-color: gold;
+  color: #fff;
+  box-shadow: 0 0 0 0 black;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  border-radius: 6px;
+  background-color: black;
+  margin-left: -100px;
+  padding: 10px;
+  color: gold;
+  text-decoration: none;
+  position:absolute;
+  margin-top: 25px;
+  border: 2px solid gold;
+  width: 175px;
+}
+.bt:hover {
+  background-color: black;
+  box-shadow: 0 0 10px 0 gold inset, 0 0 10px 4px gold;
+}
